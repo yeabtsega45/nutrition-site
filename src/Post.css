@@ -1,0 +1,17 @@
+.post {
+    /* background-color: lightgreen; */
+    display: inline-block;
+    border: 3px;
+    padding: 3px;
+    margin: 2px;
+    flex-grow: var(2px);
+    border-width: 2px;
+    box-shadow: 2px;
+    overflow-wrap: anywhere;
+    /* display: flex; */
+    background-color: #eef3f8;
+    border: 0.5px solid gray;
+}
+/* .text > h3 {
+    color: gray;
+} */
