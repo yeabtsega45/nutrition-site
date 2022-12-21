@@ -1,9 +1,15 @@
 .footer {
     background-color: darkslategray;
     color: white;
-    justify-content: right;
-    display: flex table-column
+    /* justify-content: right; */
+    display: flex ;
+    flex-direction: column;
+    align-items: center;
+    padding: 0;
+    /* place-items: right; */
 }
-h3 {
-    background-color: blue;
+.footer > h3 {
+    background-color: #005ea2;
+    /* width: 10%; */
+    padding: 10px;
 }

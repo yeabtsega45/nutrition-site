@@ -1,11 +1,19 @@
-/* .header {
-    display: flex;
-} */
 .header__title {
+    display: flex;
+    justify-content: center;
+    background-color: #eef3f8;
+}
+.header__title > h2 {
     /* padding: 10px; */
     /* border-radius: 5px; */
     height: 22px;
     color: gray;
+    margin-right: 10px;
+}
+.header__title > img {
+    width: 5%;
+    object-fit: cover;
+    margin: 0px 10px;
 }
 .header__top {
     justify-content: right;
@@ -22,8 +30,9 @@
     border: none;
     background: none;
 } */
-.header__top > SearchIcon {
+.Icon {
     background-color: blue;
+    color: white;
 }
 .header__bottom > nav {
     display: flex;
@@ -47,4 +56,11 @@
     padding: 10px;
     text-decoration-line: none;
     /* align-items: center;  */
+    box-shadow: 0 0 20px 2px rgba(0, 0, 0, .1);
+    transition: 1s;
+}
+.header__bottom > nav > a:hover {
+    transform: scale(1.1);
+    z-index: 2;
+    background-color: yellowgreen;
 }
