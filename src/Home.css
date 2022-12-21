@@ -1,13 +1,9 @@
-.home {
-    /* margin-right: 20px; */
-    padding: 16px 32px;
-    /* justify-content: space-evenly */
-}
 .home > img {
     width: 100%;
-    /* margin-top: -20px; */
+    /* margin-top: 0px; */
     height: 200px;
     object-fit: cover;
+    opacity: 0.5;
 }
 .home > h1 {
     color: gray;
@@ -17,11 +13,16 @@
     display: flex;
 } */
 .posts {
-    margin-right: 20px;
-    padding: 16px 32px;
-    /* justify-content: left; */
+    display: flex;
+    /* margin-right: 20px; */
+    /* padding: 16px 32px; */
+    width:90%;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 20px;
+    /* margin: 100px auto; */
 }
-.posts > image > img {
+/* .posts > img {
     width: 100%;
     object-fit: cover;
-}
+} */

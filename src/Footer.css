@@ -1,0 +1,9 @@
+.footer {
+    background-color: darkslategray;
+    color: white;
+    justify-content: right;
+    display: flex table-column
+}
+h3 {
+    background-color: blue;
+}

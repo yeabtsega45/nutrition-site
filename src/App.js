@@ -8,6 +8,7 @@ import Recipes from "./Recipes";
 import Topics from "./Topics";
 import { Routes, Route } from "react-router-dom";
 import Home from "./Home";
+import Footer from "./Footer";
 
 function App() {
   return (
@@ -21,6 +22,7 @@ function App() {
         <Route path="/questions" element={<Questions />} />
         <Route path="/contact" element={<Contact />} />
       </Routes>
+      <Footer />
     </>
   );
 }
