@@ -25,13 +25,13 @@
     color: gray;
     background-color: #eef3f8;
 }
-/* .header__top > input {
+.header__top > input {
     outline: none;
-    border: none;
-    background: none;
-} */
+    width: 200px;
+    height: 20px;
+}
 .Icon {
-    background-color: blue;
+    background-color: #005ea2;
     color: white;
 }
 .header__bottom > nav {

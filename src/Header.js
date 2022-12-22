@@ -12,7 +12,7 @@ function Header() {
         <h2>Yishak Nutrition site</h2>
       </div>
       <div className="header__top">
-        <input type="text" />
+        <input placeholder="search" type="text" />
         <SearchIcon className="Icon" />
       </div>
 
