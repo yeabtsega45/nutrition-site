@@ -36,11 +36,11 @@ function About() {
       </p>
       <p className="bold">• The Goals of Yishak nutrition site.</p>
       <p>
-        The goal of Nutrition.gov is to connect consumers with credible
-        nutrition information that is consistent with current science and the
-        most recent edition of the Dietary Guidelines for Ethiopians. Education
-        is the primary intent. The content provides an aspect of nutrition that
-        is accurate, substantive, unique, credible and objective.
+        The goal of this site is to connect consumers with credible nutrition
+        information that is consistent with current science and the most recent
+        edition of the Dietary Guidelines for Ethiopians. Education is the
+        primary intent. The content provides an aspect of nutrition that is
+        accurate, substantive, unique, credible and objective.
       </p>
     </div>
   );

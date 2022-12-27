@@ -1,5 +1,8 @@
 import React from "react";
 import "./Footer.css";
+import FacebookIcon from "@material-ui/icons/Facebook";
+import EmailIcon from "@material-ui/icons/Email";
+import TelegramIcon from "@material-ui/icons/Telegram";
 
 function Footer() {
   return (
@@ -7,6 +10,17 @@ function Footer() {
       <h4>your email adress</h4>
       <input type="text" />
       <h3>Sign up</h3>
+      <div className="icons">
+        <a href="https://www.facebook.com/">
+          <FacebookIcon className="icon" />
+        </a>
+        <a href="https://mail.google.com">
+          <EmailIcon className="icon" />
+        </a>
+        <a href="https://telegram.org/">
+          <TelegramIcon className="icon" />
+        </a>
+      </div>
     </div>
   );
 }
