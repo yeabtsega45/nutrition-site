@@ -9,7 +9,7 @@ function Footer() {
     <div className="footer">
       <h4>your email adress</h4>
       <input type="text" />
-      <h3>Sign up</h3>
+      <button>Sign up</button>
       <div className="icons">
         <a href="https://www.facebook.com/">
           <FacebookIcon className="icon" />
