@@ -11,16 +11,32 @@ const datas = [
       "Q: What foods can I eat to manage my diabetes or pre-diabetes?",
       "Q: What foods can I eat to manage my diabetes or pre-diabetes?",
     ],
+    answers:
+      "Living with Diabetes: Eat Well (Centers for Disease Control and Prevention)",
   },
-  { title: "diet & health condition", questions: ["what"] },
-  { title: "diet & health condition", questions: ["What foods can I "] },
+  {
+    title: "diet & health condition",
+    questions: ["what"],
+    answers:
+      "Living with Diabetes: Eat Well (Centers for Disease Control and Prevention)",
+  },
+  {
+    title: "diet & health condition",
+    questions: ["What foods can I "],
+    answers:
+      "Living with Diabetes: Eat Well (Centers for Disease Control and Prevention)",
+  },
   {
     title: "diet & health condition",
     questions: ["What foods can I eat to manage my dia"],
+    answers:
+      "Living with Diabetes: Eat Well (Centers for Disease Control and Prevention)",
   },
   {
     title: "diet & health condition",
     questions: ["What foods can I eat to manage my diabetes or pre"],
+    answers:
+      "Living with Diabetes: Eat Well (Centers for Disease Control and Prevention)",
   },
 ];
 

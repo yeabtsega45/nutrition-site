@@ -5,8 +5,8 @@
     opacity: 0.5;
 }
 .questions > h1 {
-    color: gray;
-    border-bottom: 1px solid gray
+    color: darkslategray;
+    border-bottom: 1px solid darkslategray
 }
 .datas {
     display: flex;
