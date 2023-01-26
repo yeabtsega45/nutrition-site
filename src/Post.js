@@ -13,4 +13,4 @@ function Post({ image, title, description }) {
   );
 }
 
-export default Post;
+export default Post; 
