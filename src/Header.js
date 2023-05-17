@@ -20,8 +20,8 @@ function Header() {
         <nav>
           <Link to="/">HOME</Link>
           <Link to="/about">ABOUT US</Link>
-          <Link to="/topics">TOPICS</Link>
-          <Link to="/recipes">RECIPES</Link>
+          {/* <Link to="/topics">TOPICS</Link> */}
+          {/* <Link to="/recipes">RECIPES</Link> */}
           <Link to="/questions">QUESTIONS & ANSWERS</Link>
           <Link to="/contact">CONTACT US</Link>
         </nav>

@@ -9,7 +9,7 @@ import Topics from "./Topics";
 import { Routes, Route } from "react-router-dom";
 import Home from "./Home";
 import Footer from "./Footer";
-import Login from "./Login";
+// import Login from "./Login";
 
 function App() {
   return (
@@ -24,7 +24,7 @@ function App() {
         <Route path="/contact" element={<Contact />} />
       </Routes>
       <Footer />
-      <Login />
+      {/* <Login /> */}
     </>
   );
 }
