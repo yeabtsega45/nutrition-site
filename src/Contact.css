@@ -8,6 +8,13 @@
     color: gray;
     border-bottom: 1px solid gray
 }
+.contact__text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 80%;
+    margin: auto;
+}
 .bold {
     font-size: large;
     font-weight: bold;
