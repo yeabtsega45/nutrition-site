@@ -8,8 +8,6 @@ const datas = [
     title: "diet & health condition",
     questions: [
       "Q: What foods can I eat to manage my diabetes or pre-diabetes?",
-      "Q: What foods can I eat to manage my diabetes or pre-diabetes?",
-      "Q: What foods can I eat to manage my diabetes or pre-diabetes?",
     ],
     answers:
       "Living with Diabetes: Eat Well (Centers for Disease Control and Prevention)",
