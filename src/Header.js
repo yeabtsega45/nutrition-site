@@ -1,18 +1,24 @@
-import React from "react";
+import React, { useState } from "react";
 import "./Header.css";
 import SearchIcon from "@material-ui/icons/Search";
 import { Link } from "react-router-dom";
 import logo from "./assets/logo2.png";
 
 function Header() {
+  const [search, setSearch] = useState("");
+
   return (
     <div className="header">
       <div className="header__title">
         <img src={logo} alt="logo" />
-        <h2>Yishak Nutrition site</h2>
+        <h2>Yabtsega's Nutrition site</h2>
       </div>
       <div className="header__top">
-        <input placeholder="search" type="text" />
+        <input
+          placeholder="search"
+          type="text"
+          onChange={(e) => setSearch(e.target.value)}
+        />
         <SearchIcon className="search" />
       </div>
 
