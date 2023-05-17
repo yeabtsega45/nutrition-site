@@ -4,6 +4,13 @@
     object-fit: cover;
     opacity: 0.5;
 }
+.about__text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 80%;
+    margin: auto;
+}
 .about > h1 {
     color: gray;
     border-bottom: 1px solid gray
