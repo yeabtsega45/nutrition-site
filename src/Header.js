@@ -4,6 +4,8 @@ import "./Header.css";
 // import SearchIcon from "@material-ui/icons/Search";
 import { Link } from "react-router-dom";
 import logo from "./assets/logo2.png";
+import MenuIcon from "@material-ui/icons/Menu";
+import CloseIcon from "@material-ui/icons/Close";
 
 function Header() {
   // const [search, setSearch] = useState("");
@@ -27,7 +29,7 @@ function Header() {
       <div className="header__bottom">
         <nav
           className={showNavbar ? "link" : "link__mobile"}
-          onclick={() => setShowNavbar(!showNavbar)}
+          onclick={() => setShowNavbar(true)}
         >
           <Link to="/">HOME</Link>
           <Link to="/about">ABOUT US</Link>
@@ -36,6 +38,12 @@ function Header() {
           <Link to="/questions">QUESTIONS & ANSWERS</Link>
           <Link to="/contact">CONTACT US</Link>
         </nav>
+        <button
+          className="menu__icon"
+          onclick={() => setShowNavbar(!showNavbar)}
+        >
+          showNavbar ? <MenuIcon /> : <CloseIcon />
+        </button>
       </div>
     </div>
   );
