@@ -13,7 +13,9 @@
 }
 .about > h1 {
     color: gray;
-    border-bottom: 1px solid gray
+    border-bottom: 1px solid gray;
+    width: 80%;
+    margin: auto;
 }
 .bold {
     font-size: large;
