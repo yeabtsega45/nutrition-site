@@ -73,7 +73,7 @@
         position: absolute;
         display: flex;
         flex-direction: column;
-        /* background-color:rgb(65, 64, 64); */
+        background-color: darkslategray;
         top: 75px;
         width: 100%;
         height: 100vh;
