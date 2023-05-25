@@ -6,7 +6,9 @@
 }
 .contact > h1 {
     color: gray;
-    border-bottom: 1px solid gray
+    border-bottom: 1px solid gray;
+    width: 80%;
+    margin: auto;
 }
 .contact__text {
     display: flex;

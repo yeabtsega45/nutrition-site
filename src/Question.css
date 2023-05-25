@@ -6,7 +6,7 @@
   flex-grow: var(2px);
   border-width: 2px;
   overflow-wrap: anywhere;
-  width: 500px;
+  width: 450px;
   background-color: darkslategray;
   box-shadow: 0 0 20px 2px rgba(0, 0, 0, 0.1);
   border-radius: 5px;
