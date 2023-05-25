@@ -28,7 +28,7 @@ function Header() {
 
       <div className="header__bottom">
         <nav
-          className={showNavbar ? "link" : "link__mobile"}
+          className={showNavbar ? "links" : "links__mobile"}
           onclick={() => setShowNavbar(true)}
         >
           <Link to="/">HOME</Link>
@@ -42,7 +42,7 @@ function Header() {
           className="menu__icon"
           onclick={() => setShowNavbar(!showNavbar)}
         >
-          showNavbar ? <MenuIcon /> : <CloseIcon />
+          {showNavbar ? <MenuIcon /> : <CloseIcon />}
         </button>
       </div>
     </div>

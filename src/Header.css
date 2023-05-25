@@ -53,3 +53,20 @@
     z-index: 2;
     background-color: yellowgreen;
 }
+.menu__icon {
+    display: none;
+}
+
+@media only screen and (max-width: 768px){
+    .menu__icon {
+        display: block;
+        font-size: 30px;
+        color: black;
+        /* position: absolute; */
+        /* background-color:rgb(65, 64, 64); */
+        /* border: none; */
+        /* outline: none; */
+        /* top: 15px; */
+        /* right: 25px; */
+    }
+}
