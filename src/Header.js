@@ -1,11 +1,13 @@
 import React, { useState } from "react";
+// import { useState } from "react";
 import "./Header.css";
-import SearchIcon from "@material-ui/icons/Search";
+// import SearchIcon from "@material-ui/icons/Search";
 import { Link } from "react-router-dom";
 import logo from "./assets/logo2.png";
 
 function Header() {
-  const [search, setSearch] = useState("");
+  // const [search, setSearch] = useState("");
+  const [showNavbar, setShowNavbar] = useState(true);
 
   return (
     <div className="header">
@@ -13,17 +15,20 @@ function Header() {
         <img src={logo} alt="logo" />
         <h2>Yabtsega's Nutrition site</h2>
       </div>
-      <div className="header__top">
+      {/* <div className="header__top">
         <input
           placeholder="search"
           type="text"
           onChange={(e) => setSearch(e.target.value)}
         />
         <SearchIcon className="search" />
-      </div>
+      </div> */}
 
       <div className="header__bottom">
-        <nav>
+        <nav
+          className={showNavbar ? "link" : "link__mobile"}
+          onclick={() => setShowNavbar(!showNavbar)}
+        >
           <Link to="/">HOME</Link>
           <Link to="/about">ABOUT US</Link>
           {/* <Link to="/topics">TOPICS</Link> */}
