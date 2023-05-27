@@ -89,11 +89,11 @@
         display: block;
         font-size: 30px;
         color: black;
-        /* position: absolute; */
-        /* background-color:rgb(65, 64, 64); */
-        /* border: none; */
-        /* outline: none; */
-        /* top: 15px; */
-        /* right: 25px; */
+        position: absolute;
+        top: 15px;
+        right: 25px;
+        /* background-color:white; */
+        border: none;
+        outline: none;
     }
 }
